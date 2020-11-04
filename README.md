@@ -6,6 +6,13 @@ All digital implementation of classic analog mixed signal VLSI blocks like
 
 # References
 
+## Analog PLL
+
+This section provides some analog PLL information for comparison with digital PLL implementations.
+
+1. John G. Maneatis [Why Synthesizable-digital PLLs Are No Substitute for Hardened Mixed-signal PLLs](http://www.truecircuits.com/images/pdfs/TCI_Response_to_DeepChip_Article.pdf)
+2. [OT3122t130 PLL for TSMC 130nm](https://ot1.com/ot3122t130-lp-pll-for-tsmc-130nm/)
+
 ## All digital PLL
 
 1. Adrian Freed [A Synthesizable Hybrid VCO using Standard-Cell Multiplexers](http://diychip.org/ringoscillator.html)
@@ -26,3 +33,7 @@ Exploiting Metastability in Ternary Valued Latches](https://www.computer.org/csd
 5. [open**titan**](https://opentitan.org/)
    * [ENTROPY_SRC HWIP Technical Specification](https://docs.opentitan.org/hw/ip/entropy_src/doc/index.html)
    * [CSRNG HWIP Technical Specification](https://docs.opentitan.org/hw/ip/csrng/doc/)
+
+## Tools
+
+1. [python-deltasigma](https://github.com/ggventurini/python-deltasigma)
