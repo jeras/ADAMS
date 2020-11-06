@@ -22,6 +22,7 @@ This section provides some analog PLL information for comparison with digital PL
 5. Volodymyr Kratyuk, Pavan Kumar Hanumolu, Un-Ku Moon, and Kartikeya Mayaram [A Design Procedure for All-Digital Phase-Locked Loops Based on a Charge-Pump Phase-Locked-Loop Analogy](https://web.engr.oregonstate.edu/~moon/research/files/cas2_mar_07_dpll.pdf)
 6. P.E. Allen [LECTURE 080 – ALL DIGITAL PHASE LOCK LOOPS (ADPLL)](http://pallen.ece.gatech.edu/Academic/ECE_6440/Summer_2003/L080-ADPLL(2UP).pdf)
 7. Bo Jiang [A Wide Band Adaptive All Digital Phase Locked Loop With Self Jitter Measurement And Calibration](https://scholarworks.uvm.edu/cgi/viewcontent.cgi?article=1561&context=graddis)
+8. Kusum Lata and Manoj Kumar [ALL Digital Phase-Locked Loop (ADPLL): A Survey](http://www.ijfcc.org/papers/225-E353.pdf)
 
 ## All digital TRNG
 
