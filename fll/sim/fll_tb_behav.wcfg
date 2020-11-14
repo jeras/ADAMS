@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fll_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fll_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2619001fs"></ZoomEndTime>
+      <Cursor1Time time="220000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="339"></NameColumnWidth>
+      <ValueColumnWidth column_width="166"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject type="logic" fp_name="/fll_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/num_i">
+      <obj_property name="ElementShortName">num_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/num_o">
+      <obj_property name="ElementShortName">num_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/clk_o">
+      <obj_property name="ElementShortName">clk_o</obj_property>
+      <obj_property name="ObjectShortName">clk_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/CCW_I">
+      <obj_property name="ElementShortName">CCW_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CCW_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/CCW_O">
+      <obj_property name="ElementShortName">CCW_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CCW_O[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/ACW">
+      <obj_property name="ElementShortName">ACW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fll_tb/T_MAX">
+      <obj_property name="ElementShortName">T_MAX</obj_property>
+      <obj_property name="ObjectShortName">T_MAX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fll_tb/T_MIN">
+      <obj_property name="ElementShortName">T_MIN</obj_property>
+      <obj_property name="ObjectShortName">T_MIN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/rst_i">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/num_i">
+      <obj_property name="ElementShortName">num_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/num_o">
+      <obj_property name="ElementShortName">num_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/num_r">
+      <obj_property name="ElementShortName">num_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">num_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/clk_o">
+      <obj_property name="ElementShortName">clk_o</obj_property>
+      <obj_property name="ObjectShortName">clk_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/cnt_i">
+      <obj_property name="ElementShortName">cnt_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/cnt_o">
+      <obj_property name="ElementShortName">cnt_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/fct_i">
+      <obj_property name="ElementShortName">fct_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fct_i[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/fct_o">
+      <obj_property name="ElementShortName">fct_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fct_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/inc_i">
+      <obj_property name="ElementShortName">inc_i</obj_property>
+      <obj_property name="ObjectShortName">inc_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/inc_o">
+      <obj_property name="ElementShortName">inc_o</obj_property>
+      <obj_property name="ObjectShortName">inc_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fll_tb/dut/inc_r">
+      <obj_property name="ElementShortName">inc_r</obj_property>
+      <obj_property name="ObjectShortName">inc_r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/nxt">
+      <obj_property name="ElementShortName">nxt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">nxt[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/acc">
+      <obj_property name="ElementShortName">acc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/acc">
+      <obj_property name="ElementShortName">acc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">0.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">0.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_HOLD</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fll_tb/dut/T_DCO">
+      <obj_property name="ElementShortName">T_DCO</obj_property>
+      <obj_property name="ObjectShortName">T_DCO</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/CCW_I">
+      <obj_property name="ElementShortName">CCW_I[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CCW_I[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/CCW_O">
+      <obj_property name="ElementShortName">CCW_O[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CCW_O[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fll_tb/dut/ACW">
+      <obj_property name="ElementShortName">ACW[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACW[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fll_tb/dut/T_MAX">
+      <obj_property name="ElementShortName">T_MAX</obj_property>
+      <obj_property name="ObjectShortName">T_MAX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fll_tb/dut/T_MIN">
+      <obj_property name="ElementShortName">T_MIN</obj_property>
+      <obj_property name="ObjectShortName">T_MIN</obj_property>
+   </wvobject>
+</wave_config>

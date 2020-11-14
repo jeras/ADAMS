@@ -1,0 +1,16 @@
+# compile Verilog/SystemVerilog design source files
+
+# RTL
+sv xil_defaultlib \
+"../rtl/fll_cdc.sv" \
+"../rtl/fll.sv"
+
+# compile glbl module
+verilog xil_defaultlib "$XILINX_VIVADO/data/verilog/src/glbl.v"
+
+# testbench
+sv xil_defaultlib \
+"../tbn/fll_tb.sv"
+
+# Do not sort compile order
+nosort
